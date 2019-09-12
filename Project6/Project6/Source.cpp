@@ -31,11 +31,6 @@ tasta:
 		{ vert++; 
 		}
 
-		/*case 'd':
-			vert++;
-			break;
-		}*/
-
 
 		if (jimmy[oriz][vert] == 11) // verificam daca e 11
 		{
@@ -111,36 +106,9 @@ tasta:
 	}
 	
 	
-	
 	goto tiparire;
 
 
 end:
 	return(0);
 }
-	
-	
-
-
-
-
-
-//New line +++
-
-
-
-	//cout << jimmy[2][0] << ' ';
-
-
-//int foo [10] = { 1, 1, 1, 8, 1 , 1, 1, 1, 8, 1 };
-//
-//
-//int main()
-//{
-//	for (int n = 0; n < 10; ++n)
-//	{
-//		cout << foo[n]<<" ";
-//	}
-//
-//	return 0;
-//}
